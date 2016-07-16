@@ -5,7 +5,7 @@ header {
 
 p.color1 {
     color: white;
-    margin: 10px 0 10px 0; 
+    margin: 10px 0 10px 0;
 }
 
 img.pokemon {
@@ -79,12 +79,41 @@ ul.type li:last-child {
 #firstlast {
     color: white;
     background-color: #949494;;
+    margin-bottom: 0 !important;
+    padding: 5px 15px;
 }
 
-#middle { 
+#middle {
     color: #949494;
 }
 
+.bordered{
+  padding: 10px 0 2px 0;
+  border-bottom: 1px solid #949494;
+}
 
+.bordered h4 {
+  font-size: 0.9em;
+}
 
+.bordered h4 > small{
+  margin-left: 5px;
+}
 
+.bordered figure{
+  width: 100%;
+  height: 50px;
+  overflow: hidden;
+  border: 1px solid #949494;
+}
+
+.bordered figure img{
+  display: block;
+  height: 45px;
+  width: auto;
+  margin: auto; 
+}
+
+#number {
+    float: right;
+}
