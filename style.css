@@ -1,5 +1,6 @@
 header {
     background-color: #E91E63;
+    margin-bottom: 20px;
 }
 
 p.color1 {
@@ -28,7 +29,7 @@ img.pokemon {
 
 ul.type {
     text-align: center;
-    padding: 0 0 13px 0;
+    padding: 0 0 20px 0;
 }
 
 ul.type li:first-child {
@@ -57,22 +58,33 @@ ul.type li:last-child {
     font-size: 12px;
 }
 
-.table thead th {
-    background-color: #949494 !important;
-    color: white !important;
-}
-
-.table tbody:last-child td {
-    background-color: #949494 !important;
-    color: white !important;
-}
-
 .evolution {
     padding: 7px;
     border: 1px solid #949494;
     border-right-width: auto;
 }
 
-.puta {
+.border {
+      border-bottom: 1px solid #949494;
+}
+
+.icons {
     float: right;
 }
+
+#modify {
+    margin-right: 10px;
+}
+
+#firstlast {
+    color: white;
+    background-color: #949494;;
+}
+
+#middle { 
+    color: #949494;
+}
+
+
+
+

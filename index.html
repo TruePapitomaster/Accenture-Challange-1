@@ -3,113 +3,101 @@
 <head>
   <title>Challange 1</title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <!--Import the file style.css-->
   <link rel="stylesheet" href="style.css">
   <!--Import Bootstrap-->
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </head>
 <body>
+<!----------------------------------------------------->
     <header class="container-fluid text-center">
         <!-- CLASS COLOR1 -->
-        <p class="color1">Description</p>
+        <p class="color1"><b>Description</b></p>
     </header>
+<!----------------------------------------------------->
 <div class="container-fluid">
     <div class="row">
-        <div class="col-xs-5">
+        <aside class="col-xs-4">
         <!-- CLASS POKEMON -->
-        <figure class="pokemon">
-            <img src="001.gif" width="120" height="120">
-        </figure>
-        </div>
-    
-        <div class="col-xs-7">
-            <div class="row">
-                <p class="name"><b>#001 Bulbasaur</b></p>
-                <p class="metrics"><b>0.7m, 6.9kg</b></p>
-                <p class="description">
+            <figure class="pokemon">
+                <img src="001.gif" width="100" height="130">
+            </figure>
+        </aside>
+<!----------------------------------------------------->
+        <aside class="col-xs-8">
+            <figure class="icons">   
+                <img src="empty-plate.svg" id="modify" alt="star" width="20px" height="20px">
+                <img src="star.svg"  alt="pokeball" width="20px" height="20px">
+            </figure>
+            <p class="name"><b>#001 Bulbasaur</b></p>
+            <p class="metrics"><b>0.7m, 6.9kg</b></p>
+            <p class="description">
                 <b>Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun's rays, the seed grows progressivley larger.</b></p>
                 <ul class="type">
                     <li><b>Grass</b></li>
                     <li><b>Poison</b></li>
-                <p class="puta">asdf</p>
                 </ul>
-            </div>
+        </aside>
+    </div>
+<!----------------------------------------------------->
+    <div class="row">
+        <p class="col-xs-12" id="firstlast"><b>General Information</b></p>
+    </div>
+    <div class="row">
+        <p class="col-xs-6" id="middle"><b>Hidden Ability</b></p>
+        <p class="col-xs-6" id="middle">Clorophyll</p>
+    </div>  
+    <div class="row">
+        <p class="col-xs-6" id="middle"><b>Location</b></p>
+        <p class="col-xs-6" id="middle">Lumiose City</p>
+    </div>
+    <div class="row">
+        <p class="col-xs-12" id="firstlast"><b>Evolution</b></p>
+    </div>
+<!----------------------------------------------------->
+    <div class="row">
+        <div class="col-xs-3">
+            <img src="001.gif" width="40px" height="40px">
+        </div>
+        <div class="col-xs-9">
+            <p style="float: right">#001</p>
+            <p>Bulbasaur</p>
+            
+            <ul class="type">
+                <li><b>Grass</b></li>
+                <li><b>Poison</b></li>
+            </ul>
         </div>
     </div>
-            <div class="row">
-                <table class="table">
-                <thead>
-                  <tr>
-                    <th>General Information</th>
-                    <th></th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>Hidden Abilities</td>
-                    <td>Clorophyll</td>
-                  </tr>
-                </tbody>
-                <tbody>
-                  <tr>
-                    <td>Location</td>
-                    <td>Lumiose City</td>
-                  </tr>
-                </tbody>
-                <tbody>
-                  <tr>
-                    <td><b>Evolution</b></td>
-                    <td></td>
-                  </tr>
-                </tbody>
-                </table>
-            </div>
-            <div class="row">
-                <div class="col-xs-3">
-                    <figure class="evolution">
-                        <img src="001.gif" alt="Bulbasaur" height="40px">
-                    </figure>
-                </div>
-                    <div class="col-xs-8">
-                        <p>Bulbasaur</p>
-                        <ul class="type">
-                        <li><b>Grass</b></li>
-                        <li><b>Poison</b></li>
-                        </ul>   
-                    </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-3">
-                    <figure class="evolution">
-                        <img src="002.gif" alt="Ivysaur" height="40px" >
-                    </figure>
-                </div>
-                    <div class="col-xs-8">
-                        <p>Bulbasaur</p>
-                        <ul class="type">
-                        <li><b>Grass</b></li>
-                        <li><b>Poison</b></li>
-                        </ul>   
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-3">
-                    <figure class="evolution">
-                        <img src="003.gif" alt="Venasaur" height="40px">
-                    </figure>
-                </div>
-                    <div class="col-xs-8">
-                        <p>Bulbasaur</p>
-                        <ul class="type">
-                        <li><b>Grass</b></li>
-                        <li><b>Poison</b></li>
-                        </ul>   
-                </div>
-            </div>
+    <div class="row">
+        <div class="col-xs-3">
+            <img src="002.gif" width="50px" height="50px">
         </div>
+        <div class="col-xs-9">
+            <p style="float: right">#003</p>
+            <p>Ivysaur</p>
+            <ul class="type">
+                <li><b>Grass</b></li>
+                <li><b>Poison</b></li>
+            </ul>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-3">
+            <img src="003.gif" width="60px" height="60px">
+        </div>
+        <div class="col-xs-9">
+            <p style="float: right">#006</p>
+            <p>Venasaur</p>
+            <ul class="type">
+                <li><b>Grass</b></li>
+                <li><b>Poison</b></li>
+            </ul>
+        </div>
+    </div>
+</div>
+    
 
     
     
@@ -127,13 +115,7 @@
     
     
     
-    
-    
-            <!--<section class="col-xs-7 info">
-                <p class="num&name">#001 Bulbasaur</p>
-                <p class="height&weight">ssdfghfdsfg</p>
-                <p class="description">Loremdghtgf</p>
-            </section>-->
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </body>
 </html>
